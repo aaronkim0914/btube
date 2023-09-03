@@ -4,12 +4,12 @@
   "description": "watching video",
   "repository": {
     "type": "git",
-    "url": "https://github.com/henry0/btube-reloaded.git"
+    "url": "git+https://github.com/aaronkim0914/btube.git"
   },
   "scripts": {
     "dev": "nodemon --exec babel-node src/init.js"
   },
-  "author": "henry",
+  "author": "kimaaron",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
@@ -18,9 +18,17 @@
     "pug": "^3.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.5",
-    "@babel/node": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
+    "@babel/core": "^7.22.11",
+    "@babel/node": "^7.22.10",
+    "@babel/preset-env": "^7.22.14",
     "nodemon": "^2.0.22"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/aaronkim0914/btube/issues"
+  },
+  "homepage": "https://github.com/aaronkim0914/btube#readme",
+  "main": "index.js",
+  "keywords": [
+    "q"
+  ]
 }
