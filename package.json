@@ -1,0 +1,26 @@
+{
+  "name": "btube",
+  "version": "1.0.0",
+  "description": "watching video",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henry0/btube-reloaded.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "author": "henry",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.5",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "nodemon": "^2.0.22"
+  }
+}
